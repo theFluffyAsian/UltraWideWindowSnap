@@ -48,11 +48,15 @@ These will work only if you have NumLock turned **ON**. These are ideal for Port
 
 Hotkey | Behavior
 ------ | --------
-<kbd>Win</kbd> + <kbd>Numpad 0</kbd> | Window will stretch to the **full** length of the screen.
+<kbd>Win</kbd> + <kbd>Numpad 0</kbd> | Window will stretch to the **full** length of the screen and place the window at the top of the screen.
 <kbd>Alt</kbd> + <kbd>Numpad plus</kbd> | Window increases height by **third** of the screen height.
 <kbd>Alt</kbd> + <kbd>Numpad minus</kbd> | Window decreases height by **third** of the screen height. Or to minium.
 <kbd>Alt</kbd> + <kbd>Numpad times</kbd> | Window increases width by **third** of the screen width.
 <kbd>Alt</kbd> + <kbd>Numpad divide</kbd> | Window decrease to the bottom **third** of the screen. Or to minium.
+
+## Notes
+* Some windows do not like the button modifiers. For example, Visual Studio 2017 refuses to move around. 
+* Size modifications to the window will not override the programs minimum display width. 
 
 ## Changelog
 
