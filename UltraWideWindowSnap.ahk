@@ -72,10 +72,10 @@ ResizeActiveWindow(stretchDirection) {
         width := Width + (MonitorWorkAreaRight-MonitorWorkAreaLeft)/3
         height := Height
     } else if (stretchDirection == "shrinkHeight") {
-        height := Height - (MonitorWorkAreaRight-MonitorWorkAreaLeft)/3
+        height := Height - (MonitorWorkAreaBottom-MonitorWorkAreaTop)/3
         width := Width
     } else if (stretchDirection == "expandHeight") {
-        height := Height + (MonitorWorkAreaRight-MonitorWorkAreaLeft)/3
+        height := Height + (MonitorWorkAreaBottom-MonitorWorkAreaTop)/3
         width := Width
     }
 
